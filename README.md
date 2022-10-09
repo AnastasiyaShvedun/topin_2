@@ -1,2 +1,2 @@
 # topin_2
-https://anastasiyashvedun.github.io/topin_2_/start-page/index.html
+https://anastasiyashvedun.github.io/topin_2/start-page/index.html
