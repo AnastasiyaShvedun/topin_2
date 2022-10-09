@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <title>Modulation</title>
+</head>
+
+<body>
+    <a href="../start-page/index.html"><button class="back_arrow"></button></a>
+    <header class="header">
+
+        <div class="logo">
+            <img src="../images/bsuir.svg" alt="bsuir">
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="../start-page/index.html"><img src="../images/home.svg" alt="home"></a></li>
+                <li><a href="https://www.bsuir.by/" class="tooltip"><span>bsuir.by</span><img src="../images/study.svg"
+                            alt="study"></a></li>
+                <li><a href="../questions/index.html" class="place"><img src="../images/question.svg"
+                            alt="question"></a></li>
+                <li><a href="mailto:bsm@bsuir.by" class="tooltip"><span class="aaa">bsm@bsuir.by</span><img
+                            src="../images/mail.svg" alt="mail"></a>
+                </li>
+            </ul>
+        </nav>
+        <div class="logout"><img src="../images/exit.svg" alt="exit"></div>
+
+    </header>
+    <div class="column1">
+        <p class="definition"><strong>
+                Модуляция</strong> - процесс изменения одного или нескольких параметров
+            высокочастотного гармонического колебания по закону низкочастотного информационного сигнала (сообщения). В
+            результате
+            спектр управляющего сигнала переносится в область высоких частот, где передача электромагнитных сигналов
+            посредством
+            излучения более эффективна.</p>
+        <div class="info">
+            <p>Передаваемая информация заложена в модулирующем сигнале. Роль <b>переносчика информации</b> выполняет
+                высокочастотное
+                колебание, называемое несущим (модулируемым). В качестве несущего могут быть использованы колебания
+                различной формы
+                (прямоугольные, треугольные и т.д.), однако чаще всего применяются гармонические колебания.</p>
+            <p>Модуляция осуществляется в устройствах <b> модуляторах</b>. Условное графическое обозначение модулятора
+                имеет
+                вид:
+            </p>
+            <img src="../images/усл_обозн.svg" alt="ugo">
+            <p>
+                Использование модуляции позволяет:
+            </p>
+            <ul>
+                <li>согласовать параметры сигнала с параметрами линии;</li>
+                <li>повысить помехоустойчивость сигналов;
+                </li>
+                <li>увеличить дальность передачи сигналов;
+                </li>
+                <li>организовать многоканальные системы передачи.</li>
+            </ul>
+        </div>
+        <div class="types">
+            <h2>В зависимости от типа несущего сигнала используются разные виды модуляции:
+            </h2>
+            <img src="../images/sch.svg" alt="scheme">
+        </div>
+    </div>
+    <div class="column2">
+
+        <h2><b> Зачем нужна модуляция?</b></h2>
+        <p> В рамках одного устройства для передачи информации используются низкочастотные колебания, передача
+            которых
+            на расстояние
+            свыше нескольких метров крайне затруднительна, в силу их быстрого ослабевания. Но нам все равно хочется
+            передавать
+            сигналы на большие расстояния, вот тут на помощь приходит модуляция.</p>
+
+        <p class="nch"><strong> Несущая частота S(t)</strong> модулированного колебания — частота исходного
+            высокочастотного
+            гармонического колебания.
+        </p>
+        <p class="nch"><strong>Несущее колебание</strong> имеет вид S(t) = Um,0 cos(ω0t + φ0), где Um,0 - амплитуда, ω0
+            -
+            частота,
+            φ0-начальная фаза.
+        </p>
+        <p class="nch">Основные виды модуляции в радиоэлектронике:
+        </p>
+        <ul>
+            <li><i>
+                    аналоговая модуляция;</i></li>
+            <li><i>
+                    смешанные виды модуляции (амплитудно-фазовая, частотно-фазовая);</i>
+            </li>
+            <li><i>импульсные виды модуляции (АИМ, ЧИМ, ШИМ, ФИМ);</i>
+            </li>
+            <li><i>манипуляции ( амплитудная, частотная, фазовая).</i>
+            </li>
+        </ul>
+        <p class="as"><strong>Аналоговым</strong> называется такой сигнал, который может быть представлен непрерывной
+            линией из
+            множества
+            значений,
+            определенных в каждый момент времени относительно временной оси.</p>
+    </div>
+
+    <a href="../theory1/index.html"><button class="next_page">Продолжить <img src="../images/arrow.svg"
+                alt="arrow"></button></a>
+</body>
+
+</html>
