@@ -50,6 +50,19 @@ header {
     margin: 44.4px auto;
 }
 
+.logo_menu {
+    width: 63px;
+    height: 22px;
+    margin-left: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 77.8%;
+    text-align: justify;
+    color: #D3E5FF;
+}
+
 nav {
 
     margin: 79.17px 30px 337.8px;
@@ -60,7 +73,7 @@ nav {
     margin: 7px;
 }
 
-ul {
+header ul {
     display: flex;
     flex-direction: column;
     gap: 75px;
@@ -225,3 +238,100 @@ ul {
 }
 
 /* main */
+/* digit */
+.digit {
+    width: 854px;
+    height: 945px;
+    margin: 68px 22px 67px 28px;
+}
+
+.definition {
+    width: 852px;
+    height: 178px;
+    background: #F5F5F7;
+    border-radius: 14px;
+    padding: 21px 48px 32px 19px;
+    margin-bottom: 16px;
+}
+
+h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: justify;
+}
+
+.manipulation {
+    width: 853px;
+    height: 176px;
+    background: #F5F5F7;
+    border-radius: 14px;
+    padding: 27px 48px 20px 20px;
+    margin-bottom: 21px;
+}
+
+.types_1 {
+    width: 785px;
+    height: 260px;
+    margin-left: 20px;
+}
+
+.types_1 p {
+    margin-bottom: 30px;
+}
+
+.types_1 li {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: justify;
+    margin-left: 20px;
+
+}
+
+.end_1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 29px;
+}
+
+.column_text {
+    width: 442px;
+    margin-left: 30px;
+}
+
+.a_1 {
+    width: 378px;
+    height: 84px;
+    margin: 0 auto;
+    margin-bottom: 18px;
+}
+
+.a_2 {
+    width: 442px;
+    height: 163px;
+    padding: 40px 37px;
+    background: #F5F5F7;
+    border-radius: 14px;
+}
+
+/* impulse */
+.impulse {
+    width: 782px;
+    height: 941px;
+    margin: 69px 8px 70px 0;
+}

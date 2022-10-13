@@ -37,6 +37,19 @@ body {
     transition: 0.6s;
 }
 
+.logo_menu {
+    width: 63px;
+    height: 22px;
+    margin-left: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 77.8%;
+    text-align: justify;
+    color: #D3E5FF;
+}
+
 header {
     width: 151px;
     height: 1023.75px;
