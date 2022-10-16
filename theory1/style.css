@@ -335,3 +335,75 @@ p {
     height: 941px;
     margin: 69px 8px 70px 0;
 }
+
+.definition-2 {
+    height: 178px;
+    width: 782px;
+    border-radius: 14px;
+    background: #F5F5F7;
+    padding: 24px 15px;
+}
+
+.definition-2 p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.n-signal {
+    height: 178px;
+    width: 782px;
+    border-radius: 14px;
+    background: #F5F5F7;
+    padding: 28px 16px;
+    margin-top: 14px;
+    margin-bottom: 27px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: justify;
+}
+
+.types-2,
+.end-2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+
+}
+
+.types-2 img {
+    position: absolute;
+    top: 460px;
+    left: 1560px;
+    width: 370px;
+}
+
+.t {
+    margin-bottom: 20px;
+
+}
+
+.types-2 ul {
+    margin-left: 30px;
+    margin-bottom: 29px;
+
+}
+
+.end-2 {
+    width: 758px;
+    height: 96.24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 13px;
+
+}
